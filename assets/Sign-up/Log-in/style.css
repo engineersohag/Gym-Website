@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	background: url('img/content-pixie-Xv0CHwbn6O8-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.long-in {
+	width: 320px;
+	height: 420px;
+	border: 1px solid red;
+	background: #000;
+	margin-left: 900px;
+	margin-top: 160px;
+}
+img{
+	width: 100px;
+	height: 100px;
+	margin-left: 34%;
+	margin-top: -50px;
+}
+h1{
+	color: #fff;
+	font-size: 23px;
+	text-align: center;
+	margin-top: 20px;
+}
+form{
+	padding: 30px;
+}
+label {
+	color: #fff;
+	font-weight: bold;
+}
+input{
+	width: 100%;
+
+}
+input[type="text"],[type="password"]{
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	height: 40px;
+}
+input[type="submit"]{
+	height: 40px;
+	border: none;
+	outline: none;
+	background: rgb(240, 120, 33);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	transition: .8s;
+	margin-bottom: 20px;
+}
+input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.a a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+}
+.a a:hover {
+	color: #ffc107;
+
+}
